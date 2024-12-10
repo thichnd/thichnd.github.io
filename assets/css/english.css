@@ -130,6 +130,10 @@ html, body {
     font-size: 16px;
       font-weight: 600;
   }
+  .slider .question.active{
+    background: #ad7538;
+  }
+
   .slider .question:active {
     top: 1px;
   }
