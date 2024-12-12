@@ -1,3 +1,5 @@
+let cacheKeyGlobal = ""; //"listening_";// reading_
+
   /// Function check correct answer
   function checkAnswer(evt, AnswerCorrect, inputName, linkid){
     var answerChoise = document.querySelector('input[name="'+ inputName +'"]:checked');
@@ -17,6 +19,8 @@
           linkQuestion.style.background = "red";
           linkQuestion.setAttribute("data-choise", false);
         }
+        // add cache
+        addCacheData(inputName, answerChoise.value, answerChoise.value == AnswerCorrect)
     }
   }
   // open tab
@@ -40,6 +44,7 @@
       let questionNumbers = document.querySelector("#Practice_"+ numberParctice +" > .slider > #question-number-" + numberParctice);
       let questionLst = document.querySelector("#Practice_"+ numberParctice +" > .slider > .slides");
       if(questionNumbers != null && questionLst != null){
+          cacheKeyGlobal = isCase ? "reading_" : "listening_";
           let dataPractice = isCase ? jsonReading[numberParctice-1] : jsonListening[numberParctice-1];
           let lstNumber = "";
           let lstQuestions = "";
@@ -66,6 +71,10 @@
             }
             questionNumbers.innerHTML = lstNumber;
             questionLst.innerHTML = lstQuestions;
+
+            // load answer from cache
+            loadAnswerFromCache(numberParctice);
+
           }
       }
     
@@ -98,4 +107,87 @@ function getAnswerKey(index){
       alinks[i].className = alinks[i].className.replace(" active", "");
     }
     evt.currentTarget.className += " active";
+  }
+
+
+
+  // Load cache
+function loadAnswerFromCache(practiceKey){
+     let cacheKey = cacheKeyGlobal +"p" + practiceKey;
+   let dataCaches = f_ReadCacheDataToLocalStorage(cacheKey);
+   if(dataCaches != ""){
+    for (var i in dataCaches) {
+    //"question-p1-slide-1"
+    
+     let lstKey = (dataCaches[i].questionKey).split("_");
+     let keyParactice = lstKey[0].replace('p',"");
+     let keyQuestion = lstKey[1].replace('Q',"");
+     var linkQuestion = document.getElementById("question-p"+ keyParactice +"-slide-"+ keyQuestion +"");
+     var question = document.getElementById(dataCaches[i].questionKey + "_" + dataCaches[i].answer);
+     var elmAnswer = document.getElementsByClassName(dataCaches[i].questionKey + "_" + dataCaches[i].answer)[0];
+     if(dataCaches[i].isCorrect){
+      linkQuestion.style.background = "#338f7b";
+      elmAnswer.style.color = "#338f7b";
+     }
+     else{
+      linkQuestion.style.background = "red";
+      elmAnswer.style.color = "red";
+     }
+   }
+   }
+  }
+  
+  // Cache function data to local storage
+  function addCacheData(questionKey, answer, isCorrect){
+   const practiceKey = questionKey.slice(0, 2);
+   let cacheKey = cacheKeyGlobal + practiceKey;
+   let cacheNewData = {"questionKey":questionKey, "answer":answer, "isCorrect":isCorrect};
+   let cacheStorage = f_ReadCacheDataToLocalStorage(cacheKey);
+   if(cacheStorage != ""){
+   // check if exist data
+    cacheStorage = changeDataCache(questionKey, answer, isCorrect, cacheStorage, cacheNewData);
+    console.log('have data cache');
+    console.log(cacheStorage);
+   }
+   else{
+    cacheStorage = [cacheNewData];
+   }
+   // create cache
+   f_CreateCacheDataToLocalStorage(cacheKey, cacheStorage);
+  }
+  
+  // check if exist and update data
+  function changeDataCache(questionKey, answer, isCorrect, cacheStorage, cacheNewData ) {
+   let isExist = false;
+   for (var i in cacheStorage) {
+    if (cacheStorage[i].questionKey == questionKey) {
+      cacheStorage[i].answer = answer;
+      cacheStorage[i].isCorrect = isCorrect;
+      isExist = true;
+      break; //Stop this loop, we found it!
+    }
+   }
+   if(!isExist){
+    cacheStorage.push(cacheNewData);
+   }
+   return cacheStorage;
+  }
+  
+  // function Create cache
+  function f_CreateCacheDataToLocalStorage(cacheKey ,data){
+   localStorage.removeItem(cacheKey);
+   localStorage[cacheKey] = JSON.stringify(data);
+  }
+  
+  // function Read cache
+  function f_ReadCacheDataToLocalStorage(cacheKey){
+   var stored = localStorage[cacheKey];
+   let data = "";
+   if (stored) data = JSON.parse(stored);
+   return data;
+  }
+  
+  // function clear cache
+  function f_clearCache(cacheKey){
+   localStorage.removeItem(cacheKey);
   }
