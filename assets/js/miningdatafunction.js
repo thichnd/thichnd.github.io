@@ -117,7 +117,7 @@ function tinhlaitam(evt){
                         })
                         let x1tinhlaitam = x1kstt/indexkstt;
                         let x2tinhlaitam = x2kstt/indexkstt;
-                        document.getElementById('result_tam').innerHTML += '<p> C'+ indexTinhLaiTam + ' (' + x1tinhlaitam +','+ x2tinhlaitam +')</p>';
+                        document.getElementById('result_tam').innerHTML += '<p> C'+ indexTinhLaiTam + ' (' + x1tinhlaitam +', '+ x2tinhlaitam +')</p>';
                 }
             }});
 }
