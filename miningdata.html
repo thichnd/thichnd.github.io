@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="assets/css/miningdata.css">
+</head>
+<body>
+
+<h2 class="color-white">Mining data: Giữa kỳ 3  <span style="font-size: 16px;float: right;"></span></h2>
+<div class="data-infomation">
+<div class="list-stt">
+     <div class="list-detail" id="list-detail-stt">
+        <p>
+                1.<input class="stt" name="stt-1" type="text" placeholder="x=1,y=2 => 1,2" />
+            </p> 
+            <p>
+                2.<input class="stt" name="stt-2" type="text" placeholder="STT 2" />
+            </p> 
+            <p>
+                3.<input class="stt" name="stt-3" type="text" placeholder="STT 2" />
+            </p> 
+            <p>
+                4.<input class="stt" name="stt-4" type="text" placeholder="STT 2" />
+            </p> 
+            <p>
+                5.<input class="stt" name="stt-5" type="text" placeholder="STT 2" />
+            </p> 
+            <p>
+                6.<input class="stt" name="stt-6" type="text" placeholder="STT 2" />
+            </p> 
+            <p>
+                7.<input class="stt" name="stt-7" type="text" placeholder="STT 2" />
+            </p> 
+            <p>
+                8.<input class="stt" name="stt-8" type="text" placeholder="STT 2" />
+            </p> 
+            <p>
+                9.<input class="stt" name="stt-9"class="stt-2" type="text" placeholder="STT 2" />
+            </p> 
+            <p>
+                10.<input class="stt" name="stt-10"type="text" placeholder="STT 2" />
+            </p> 
+            <p>
+                11.<input class="stt" name="stt-11" type="text" placeholder="STT 2" />
+            </p> 
+             <p>
+                12.<input class="stt" name="stt-12" type="text" placeholder="STT 2" />
+            </p> 
+             <p>
+                13.<input class="stt" name="stt-13" type="text" placeholder="STT 2" />
+            </p> 
+             <p>
+                14.<input class="stt" name="stt-14" type="text" placeholder="STT 2" />
+            </p> 
+             <p>
+                15.<input class="stt" name="stt-15" type="text" placeholder="STT 2" />
+            </p> 
+             <p>
+                16.<input class="stt" name="stt-16" type="text" placeholder="STT 2" />
+            </p> 
+             <p>
+                17.<input class="stt" name="stt-17" type="text" placeholder="STT 2" />
+            </p> 
+             <p>
+                18.<input class="stt" name="stt-18" type="text" placeholder="STT 2" />
+            </p> 
+             <p>
+                19.<input class="stt" name="stt-19" type="text" placeholder="STT 2" />
+            </p> 
+             <p>
+                20.<input class="stt" name="stt-20" type="text" placeholder="STT 2" />
+            </p> 
+     </div>
+     <div class="list-btn">
+        <button class="btn-add-stt" onclick="addSTT(event)" type="button" title="Thêm STT" >Add STT</button>
+    </div>
+</div>
+<div class="list-tam">
+    <div class="tam-detail" id="tam-detail">
+        <p>
+            1.<input class="tam" name="tam-1" type="text" placeholder="Tam 1" />
+        </p> 
+        <p>
+            2.<input class="tam" name="tam-2" type="text" placeholder="Tam 2" />
+        </p> 
+        <p>
+            3.<input class="tam" name="tam-3" type="text" placeholder="Tam 3" />
+        </p> 
+
+    </div>
+    <div class="add-btn">
+        <button class="btn-add-tam" onclick="addTam(event)" type="button" title="Thêm tâm" >Add Tam</button>
+    </div>
+    
+</div>
+</div>
+
+
+<br>
+<div class="tinhkq-btn">
+        <button class="btn btn-tinhkq" onclick="tinhkq(event)" type="button" title="Thêm tâm" >Tinh ket qua</button>
+    </div>
+
+<p>Ket qua tinh khoan cach</p>
+<div id="result" class="result">
+</div>
+<p>Ket qua chọn điểm min</p>
+<div id="result_min" class="result">
+</div>
+
+<script type="text/javascript" src="assets/js/miningdatafunction.js"></script>
+   
+</body>
+</html> 
+
+<!---
+1. hiển thị danh sách kết quả của 15 stt (trên 3 nhóm) (dựa vào công thức tính
+2. Hiển thị kết quả chọn nhỏ nhất trên 3 nhóm kết quả. 
+=> chọn nhóm nào
+4. Tính trung bình trên các nhóm và suất ra c1, c2, c3 cho lần tính tiếp theo L2
+(Cộng lại chia tổng số)  --->

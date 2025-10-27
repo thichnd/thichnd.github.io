@@ -1,0 +1,32 @@
+.list-stt, .list-tam{
+    width: 200px;
+    float: left;
+}
+.list-detail{
+    height: 250px;
+    overflow: auto;
+}
+input{
+    height: 30px;
+    width: 80%;
+}
+.list-tam{
+    margin-top: 25px;
+}
+.list-btn{
+    margin-top: 20px;
+}
+.btn-add-stt, .btn-add-tam, .btn{
+        height: 35px;
+    background: #dcdd73;
+    border-radius: 5px;
+}
+
+.result {
+    width: 100%;
+}
+
+.btn-tinhkq{
+    margin-top: 38px;
+    background: green;
+}
