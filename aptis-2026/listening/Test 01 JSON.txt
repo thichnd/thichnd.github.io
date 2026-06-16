@@ -1,0 +1,232 @@
+{
+  "questions": [
+    {
+      "title": "Question 1: A person calls a friend about his new car. How much does the small car cost him?",
+      "answers": [
+        { "name": "A. 3250 pounds" },
+        { "name": "B. 3550 pounds" },
+        { "name": "C. 4250 pounds" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "title": "Question 2: Two people are talking about meeting for dinner. What time does Ahmed meet Rose?",
+      "answers": [
+        { "name": "A. half past seven" },
+        { "name": "B. quarter past seven" },
+        { "name": "C. quarter to eight" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "title": "Question 3: A man calls the teleshop. What is the teleshop number?",
+      "answers": [
+        { "name": "A. 102030" },
+        { "name": "B. 201030" },
+        { "name": "C. 301020" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "title": "Question 4: A man is talking to a shopping assistant. What color top is he going to buy?",
+      "answers": [
+        { "name": "A. Green" },
+        { "name": "B. Blue" },
+        { "name": "C. Black" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "title": "Question 5: Anna is calling her brother Max. What does Anna do later in the afternoon?",
+      "answers": [
+        { "name": "A. Stay late at the office" },
+        { "name": "B. Pick up her kids" },
+        { "name": "C. Hang out with friends" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "title": "Question 6: Vincent is calling James. Why does Vincent call James?",
+      "answers": [
+        { "name": "A. To say hello" },
+        { "name": "B. To suggest a drink" },
+        { "name": "C. To arrange meeting" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "title": "Question 7: A man is talking about his trip. What did he enjoy last year?",
+      "answers": [
+        { "name": "A. Go for a walk" },
+        { "name": "B. Go picnic" },
+        { "name": "C. Go cycling" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "title": "Question 8: A woman is talking about her job. What encouraged her to become a scientist?",
+      "answers": [
+        { "name": "A. Her mother" },
+        { "name": "B. A large stone" },
+        { "name": "C. The computer" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "title": "Question 9: A man is talking about the city concert. How will the concert end?",
+      "answers": [
+        { "name": "A. The city's favorite group" },
+        { "name": "B. Fireworks performance" },
+        { "name": "C. Singing from orchestra" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "title": "Question 10: A man is talking about his family trip. What does the man's wife enjoy?",
+      "answers": [
+        { "name": "A. walking" },
+        { "name": "B. shopping" },
+        { "name": "C. photography" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "title": "Question 11: Jana is talking to her friend. What does Jana's sister look like?",
+      "answers": [
+        { "name": "A. Curly hair" },
+        { "name": "B. Short" },
+        { "name": "C. Thin" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "title": "Question 12: A man is calling his sister. Where are they going to meet?",
+      "answers": [
+        { "name": "A. At the university" },
+        { "name": "B. At the station" },
+        { "name": "C. At the park" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "title": "Question 13: A woman is talking about her vacation. What is the relationship between the speaker and Lisa?",
+      "answers": [
+        { "name": "A. Best friends" },
+        { "name": "B. Mother and daughter" },
+        { "name": "C. Teacher and student" }
+      ],
+      "correctAnswer": "A"
+    },
+	{
+      "title": "Question 14.1: Four people are talking about their exercise preferences. Speaker A enjoys:",
+      "answers": [
+        { "name": "A. Mountain biking" },
+        { "name": "B. Walking" },
+        { "name": "C. Going for a run" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "title": "Question 14.2: Four people are talking about their exercise preferences. Speaker B enjoys:",
+      "answers": [
+        { "name": "A. Mountain biking" },
+        { "name": "B. Walking" },
+        { "name": "C. Going for a run" },
+        { "name": "D. Horse riding" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "title": "Question 14.3: Four people are talking about their exercise preferences. Speaker C enjoys:",
+      "answers": [
+        { "name": "A. Mountain biking" },
+        { "name": "B. Walking" },
+        { "name": "C. Going for a run" },
+        { "name": "D. Horse riding" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "title": "Question 14.4: Four people are talking about their exercise preferences. Speaker D enjoys:",
+      "answers": [
+        { "name": "A. Mountain biking" },
+        { "name": "B. Walking" },
+        { "name": "C. Going for a run" },
+        { "name": "D. Horse riding" }
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "title": "Question 15.1: Two people discussing the Internet. There is too much information on the Internet.",
+      "answers": [
+        { "name": "A. Woman" },
+        { "name": "B. Man" },
+        { "name": "C. Both" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "title": "Question 15.2: Finding information on the Internet requires skills.",
+      "answers": [
+        { "name": "A. Woman" },
+        { "name": "B. Man" },
+        { "name": "C. Both" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "title": "Question 15.3: The use of Internet affects the way we think.",
+      "answers": [
+        { "name": "A. Woman" },
+        { "name": "B. Man" },
+        { "name": "C. Both" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "title": "Question 15.4: The Internet makes young people less patient.",
+      "answers": [
+        { "name": "A. Woman" },
+        { "name": "B. Man" },
+        { "name": "C. Both" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "title": "Question 16.1: Listen to an announcer talking about a newly released novel. What does the announcer say about the new novel?",
+      "answers": [
+        { "name": "A. It is different from his earlier works" },
+        { "name": "B. It is romantic and soft" },
+        { "name": "C. It is less famous than his earlier works" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "title": "Question 16.2: Listen to an announcer talking about a newly released novel. What does the announcer say the writer should do in the future?",
+      "answers": [
+        { "name": "A. The writer should continue to write this genre" },
+        { "name": "B. The writer should go back to his original genre" },
+        { "name": "C. He should listen to critics before writing his next work" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "title": "Question 17.1: Listen to an expert talking about professionalism. What does the expert say being professional is all about?",
+      "answers": [
+        { "name": "A. To maintain positive attitude" },
+        { "name": "B. To create good working environment" },
+        { "name": "C. To make good impressions" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "title": "Question 17.2: Listen to an expert talking about professionalism. What does the expert say about the definition of professionalism?",
+      "answers": [
+        { "name": "A. It is the same of 40 years ago" },
+        { "name": "B. Our definition of it is changing" },
+        { "name": "C. It will not change anymore" }
+      ],
+      "correctAnswer": "B"
+    }
+  ]
+}
