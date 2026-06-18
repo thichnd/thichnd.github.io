@@ -66,8 +66,29 @@ let cacheKeyGlobal = ""; //"listening_";// reading_
                   "</span>"
                 }
               }
-              lstQuestions = lstQuestions+ "<button class='check-answer' onclick='checkAnswer(event, \""+ questionData.correctAnswer +"\", \"p"+ numberParctice +"_Q"+ questionNumber +"\", \"question-p"+ numberParctice +"-slide-"+ questionNumber +"\")'>Check Answer</button>"+
-              "</div>";
+              lstQuestions = lstQuestions+ "<button class='check-answer' onclick='checkAnswer(event, \""+ questionData.correctAnswer +"\", \"p"+ numberParctice +"_Q"+ questionNumber +"\", \"question-p"+ numberParctice +"-slide-"+ questionNumber +"\")'>Check Answer</button>"
+              
+              if(questionData.Transcript !=undefined && questionData.Transcript.length > 0){
+                lstQuestions =  lstQuestions + "<p>"+ questionData.Transcript +"</p>";
+              } 
+              
+             
+            
+          //  if(questionData.Audio !=undefined && questionData.Audio.length > 0){
+                // Lấy ID từ JSON
+           //     const videoId = getYouTubeId(questionData.Audio);
+           //     console.log("YouTube ID:", videoId);
+
+                // Nhúng vào iframe
+            //    const iframe = `<iframe width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>`;
+                
+            //    lstQuestions = lstQuestions + iframe;
+
+          //  }
+            
+
+
+              lstQuestions = lstQuestions + "</div>";
             }
             questionNumbers.innerHTML = lstNumber;
             questionLst.innerHTML = lstQuestions;
@@ -80,6 +101,20 @@ let cacheKeyGlobal = ""; //"listening_";// reading_
     
     
   }
+
+// Hàm lấy ID từ link YouTube
+function getYouTubeId(url) {
+  let id = "";
+  if (url.includes("youtu.be/")) {
+    // dạng rút gọn
+    id = url.split("youtu.be/")[1];
+  } else if (url.includes("youtube.com/watch?v=")) {
+    // dạng đầy đủ
+    const params = new URL(url).searchParams;
+    id = params.get("v");
+  }
+  return id;
+}
 
 // get question abcd
 function getAnswerKey(index){

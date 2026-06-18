@@ -208,7 +208,7 @@ Transcript: I’m really excited about my trip tomorrow because it’s going to 
 Why can’t he work today?
 A. He feels sick
 B. He is visiting family
-C. He has another appointment ✅ 
+C. He has another appointment
 
 Correct answer: C
 
@@ -424,7 +424,6 @@ B. Man
 C. Both
 
 Correct answer: C
-
 
 Transcript: No Transcript
 
