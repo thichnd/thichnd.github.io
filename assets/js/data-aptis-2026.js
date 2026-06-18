@@ -1168,7 +1168,7 @@ let jsonListening = [
         }
       ]
     },
-    // Practice 6
+    // Practice 6 SUM
     {
   "questions": [
     {
@@ -1649,7 +1649,7 @@ let jsonListening = [
       "Transcript": ""
     },
     {
-      "title": "Question 44: Part 4 - Traveling (16.1) Why does the brother find traveling meaningful?",
+      "title": "Question 44: Part 4 - Traveling -Listen to a person talk about her brother's passion for traveling and answer the questions below. (16.1) Why does the brother find traveling meaningful?",
       "answers": [
         { "name": "A. Because it allows him to escape his professional responsibilities." },
         { "name": "B. Because he wants to document his trips for social media influence." },
@@ -1671,7 +1671,7 @@ let jsonListening = [
       "Transcript": ""
     },
     {
-      "title": "Question 46: Part 4 - Criticism Of The New Novel (17.1) Why do some readers struggle to connect with the characters?",
+      "title": "Question 46: Part 4 - Criticism Of The New Novel - Listen to a literary critic review a new novel and answer the questions below.- (17.1) Why do some readers struggle to connect with the characters?",
       "answers": [
         { "name": "A. Their motivations are explained too clearly." },
         { "name": "B. There are too many main characters to follow." },
@@ -1957,12 +1957,1302 @@ let jsonListening = [
       "Transcript": ""
     }
   ]
-}
+},
+
+    // Practice 6
+  {
+  "questions": [
+    {
+      "title": "Question 1: Tom is calling his friend. What time will they meet?",
+      "answers": [
+        { "name": "A. 6 PM" },
+        { "name": "B. 5 PM" },
+        { "name": "C. 7 PM" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "Hey Mike, it's Tom! ... Let's meet at the park at 7 P.M."
+    },
+    {
+      "title": "Question 2: Lucy is calling her friend. What is her sister like?",
+      "answers": [
+        { "name": "A. She is young" },
+        { "name": "B. They have similar characters" },
+        { "name": "C. She will be wearing a red coat" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "She looks just like me, so you'll recognize her easily."
+    },
+    {
+      "title": "Question 3: A finance expert is giving advice to young people. What shouldn't they do?",
+      "answers": [
+        { "name": "A. Spend too much on clothes." },
+        { "name": "B. Ask for more money." },
+        { "name": "C. Save for emergencies." }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "Young people, especially, need to be careful about borrowing money."
+    },
+    {
+      "title": "Question 4: A man is talking about his daily routine. What does he do after work?",
+      "answers": [
+        { "name": "A. Goes to the gym." },
+        { "name": "B. Plays football." },
+        { "name": "C. Reads books." }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "After work, I like to relax by playing football with my friends."
+    },
+    {
+      "title": "Question 5: Lily is talking about her daily routine. What does she do in the evening?",
+      "answers": [
+        { "name": "A. Goes for a walk" },
+        { "name": "B. Plays video games." },
+        { "name": "C. Cooks dinner." }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "After dinner, I usually go for a walk to relax."
+    },
+    {
+      "title": "Question 6: A woman is talking to a police officer. What did she lose?",
+      "answers": [
+        { "name": "A. Wallet" },
+        { "name": "B. Phone" },
+        { "name": "C. Car" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "I was walking in the park and I think I lost my phone."
+    },
+    {
+      "title": "Question 7: A man and a woman are going shopping. What does he buy in the store?",
+      "answers": [
+        { "name": "A. A T-shirt" },
+        { "name": "B. A suit for the office" },
+        { "name": "C. A pair of shoes" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "I really need a suit for the office."
+    },
+    {
+      "title": "Question 8: A student is talking about housing. Where does he live now?",
+      "answers": [
+        { "name": "A. In a small village" },
+        { "name": "B. In an apartment" },
+        { "name": "C. In a town hall" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "Right now, I'm staying in a town hall near my university."
+    },
+    {
+      "title": "Question 9: Listen to a radio man talking about a new popular song. Which is the most attractive part of the song?",
+      "answers": [
+        { "name": "A. The words" },
+        { "name": "B. The instruments" },
+        { "name": "C. The cover art" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "However, the most attractive part of all is the words."
+    },
+    {
+      "title": "Question 10: Listen to a saleswoman talking about a property. Which room is the largest?",
+      "answers": [
+        { "name": "A. Bedroom" },
+        { "name": "B. Kitchen" },
+        { "name": "C. Bathroom" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "But the kitchen is the star of the house—it's the largest room."
+    },
+    {
+      "title": "Question 11: Listen to a student talking about his study. What course is the student going to take this year?",
+      "answers": [
+        { "name": "A. Math" },
+        { "name": "B. Computer" },
+        { "name": "C. Science" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "This year, I'm really excited because I'm going to take a computer course."
+    },
+    {
+      "title": "Question 12: A girl is talking about a show she will attend. What will it end with?",
+      "answers": [
+        { "name": "A. A dance performance" },
+        { "name": "B. A big celebration" },
+        { "name": "C. A surprise performance" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "But the best part is that it will end with a surprise performance!"
+    },
+    {
+      "title": "Question 13: A boy is talking about his cat. What does he feed the cat?",
+      "answers": [
+        { "name": "A. Mice" },
+        { "name": "B. Insects" },
+        { "name": "C. Fish" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "He absolutely loves fish. Every time I give him some, he gets so excited!"
+    },
+    {
+      "title": "Question 14.1: Speaker A _____",
+      "answers": [
+        { "name": "A. Prefer to study late at night" },
+        { "name": "B. Prefer to study at various places" },
+        { "name": "C. Prefer to study with music" },
+        { "name": "D. Prefer to study in a quiet place" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "I find that late-night hours work best for my studying."
+    },
+    {
+      "title": "Question 14.2: Speaker B _____",
+      "answers": [
+        { "name": "A. Prefer to study late at night" },
+        { "name": "B. Prefer to study at various places" },
+        { "name": "C. Prefer to study with music" },
+        { "name": "D. Prefer to study in a quiet place" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "Changing my study space has really helped me focus better."
+    },
+    {
+      "title": "Question 14.3: Speaker C _____",
+      "answers": [
+        { "name": "A. Prefer to study late at night" },
+        { "name": "B. Prefer to study at various places" },
+        { "name": "C. Prefer to study with music" },
+        { "name": "D. Prefer to study in a quiet place" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "Having some background music makes a noticeable difference."
+    },
+    {
+      "title": "Question 14.4: Speaker D _____",
+      "answers": [
+        { "name": "A. Prefer to study late at night" },
+        { "name": "B. Prefer to study at various places" },
+        { "name": "C. Prefer to study with music" },
+        { "name": "D. Prefer to study in a quiet place" }
+      ],
+      "correctAnswer": "D",
+      "Transcript": "I usually end up in a quiet room at home or a secluded corner in the library."
+    },
+    {
+      "title": "Question 15.1: The Internet makes education more accessible",
+      "answers": [
+        { "name": "A. Woman" },
+        { "name": "B. Man" },
+        { "name": "C. Both" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "We can both agree that the internet has made education more accessible."
+    },
+    {
+      "title": "Question 15.2: Social interactions are essential to university life",
+      "answers": [
+        { "name": "A. Woman" },
+        { "name": "B. Man" },
+        { "name": "C. Both" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "I still believe that social interactions are a crucial part of university life."
+    },
+    {
+      "title": "Question 15.3: Diverse curriculum is not always a good thing",
+      "answers": [
+        { "name": "A. Woman" },
+        { "name": "B. Man" },
+        { "name": "C. Both" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "A diverse curriculum sounds good in theory, but it can overwhelm students."
+    },
+    {
+      "title": "Question 15.4: Competitions should be encouraged",
+      "answers": [
+        { "name": "A. Woman" },
+        { "name": "B. Man" },
+        { "name": "C. Both" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "Another thing I'm really in favor of is encouraging competition between universities."
+    },
+    {
+      "title": "Question 16.1: What was the lecturer's opinion about both authors' past work?",
+      "answers": [
+        { "name": "A. They have both been overlooked by academics." },
+        { "name": "B. They make reference to each other's work." },
+        { "name": "C. One was less successful than the other." }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "Both of these figures have often been overlooked by academics."
+    },
+    {
+      "title": "Question 16.2: What did the lecturer say about both authors?",
+      "answers": [
+        { "name": "A. Their reputation goes beyond their target audience." },
+        { "name": "B. They should have been more popular." },
+        { "name": "C. It is not always easy for the meanings to be identified." }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "It is not always easy for the meanings in their works to be identified."
+    },
+    {
+      "title": "Question 17.1: What is the expert's opinion about sport competitions?",
+      "answers": [
+        { "name": "A. Provide school with external investments" },
+        { "name": "B. Nurture potential sportsmen for the country." },
+        { "name": "C. They can cause harmful effects" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "Competitive sports can have negative effects."
+    },
+    {
+      "title": "Question 17.2: What is the expert's advice for schools?",
+      "answers": [
+        { "name": "A. Should consider sports as a mandatory subject." },
+        { "name": "B. Provides them with a balance in their lives." },
+        { "name": "C. Keep students focus on academic subjects" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "Schools should view sports as a way to provide balance in students' lives."
+    }
+  ]
+},
 
     // Practice 7
+    {
+  "questions": [
+    {
+      "title": "Question 1: A woman is talking about her family's weekend. What does the family do most weekends?",
+      "answers": [
+        { "name": "A. Goes for a walk" },
+        { "name": "B. Goes picnic" },
+        { "name": "C. Goes to the beach" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "We love spending time together and often go for a walk in the park."
+    },
+    {
+      "title": "Question 2: A man is talking to a shop assistant. What does the man buy in the shop?",
+      "answers": [
+        { "name": "A. Mugs" },
+        { "name": "B. Candles" },
+        { "name": "C. Clothes" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "That sounds good! I think I'll buy some clothes for my friends."
+    },
+    {
+      "title": "Question 3: A man is talking on the phone. What did the man lose?",
+      "answers": [
+        { "name": "A. Jacket" },
+        { "name": "B. Glasses" },
+        { "name": "C. Books" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "I think I might have lost my glasses when I was at your store earlier today."
+    },
+    {
+      "title": "Question 4: Jack is phoning his mom. What does Jack need to buy for his sister?",
+      "answers": [
+        { "name": "A. Chocolates" },
+        { "name": "B. Milk" },
+        { "name": "C. Fruit" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "I need to buy some chocolates for my sister's birthday."
+    },
+    {
+      "title": "Question 5: Lucy is calling her brother. What does the brother have to drink?",
+      "answers": [
+        { "name": "A. Milk" },
+        { "name": "B. Medicine" },
+        { "name": "C. Water" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "I'm worried that you're not drinking enough water."
+    },
+    {
+      "title": "Question 6: Anna is calling her friend. Where will they meet?",
+      "answers": [
+        { "name": "A. At the marketplace" },
+        { "name": "B. At the mall" },
+        { "name": "C. At the park" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "I wanted to see if we are still meeting at the marketplace later."
+    },
+    {
+      "title": "Question 7: Listen to an auction man talking about a cabinet. Which part of the cabinet is original?",
+      "answers": [
+        { "name": "A. The drawer" },
+        { "name": "B. The doors" },
+        { "name": "C. The handles" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "What makes it special is that the drawer is kept original."
+    },
+    {
+      "title": "Question 8: Listen to a voice message. How does Evan feel?",
+      "answers": [
+        { "name": "A. Sick" },
+        { "name": "B. Happy" },
+        { "name": "C. Tired" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "I heard you're not feeling well, and I'm really worried about you."
+    },
+    {
+      "title": "Question 9: Two friends are talking about their trip. What will the weather be like?",
+      "answers": [
+        { "name": "A. Cold and wet" },
+        { "name": "B. Hot and sunny" },
+        { "name": "C. Warm and dry" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "But I heard the weather is going to be cold and wet."
+    },
+    {
+      "title": "Question 10: A man is talking about his holiday. How is he going to travel to the city?",
+      "answers": [
+        { "name": "A. by car" },
+        { "name": "B. by train" },
+        { "name": "C. by bus" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "The best part is that I will travel by train."
+    },
+    {
+      "title": "Question 11: Listen to a nutrition expert. What time is the best for children to eat fruit?",
+      "answers": [
+        { "name": "A. In the evening" },
+        { "name": "B. In the afternoon" },
+        { "name": "C. In the morning" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "The best time for children to eat fruit is in the morning."
+    },
+    {
+      "title": "Question 12: Greg is talking about a working day in his life. How does he go to work?",
+      "answers": [
+        { "name": "A. By bus" },
+        { "name": "B. By bike" },
+        { "name": "C. On foot" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "I go by bus every day, which takes about 30 minutes."
+    },
+    {
+      "title": "Question 13: Listen to a tour guide. Where is the office located?",
+      "answers": [
+        { "name": "A. Next to the park" },
+        { "name": "B. Opposite the hotel" },
+        { "name": "C. Above a restaurant" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "Our office is opposite the hotel where you are staying."
+    },
+    {
+      "title": "Question 14.1: Speaker A _____",
+      "answers": [
+        { "name": "A. Walk with friends" },
+        { "name": "B. Go by bus" },
+        { "name": "C. Walk alone" },
+        { "name": "D. Drive car" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "I get to catch up with my friends, laugh about silly things..."
+    },
+    {
+      "title": "Question 14.2: Speaker B _____",
+      "answers": [
+        { "name": "A. Walk with friends" },
+        { "name": "B. Go by bus" },
+        { "name": "C. Walk alone" },
+        { "name": "D. Drive car" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "I hop on the bus, find a seat if I'm lucky, and just watch the world go by."
+    },
+    {
+      "title": "Question 14.3: Speaker C _____",
+      "answers": [
+        { "name": "A. Walk with friends" },
+        { "name": "B. Go by bus" },
+        { "name": "C. Walk alone" },
+        { "name": "D. Drive car" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "Mornings are quiet, and that's how I like it. It's just me, the fresh air..."
+    },
+    {
+      "title": "Question 14.4: Speaker D _____",
+      "answers": [
+        { "name": "A. Walk with friends" },
+        { "name": "B. Go by bus" },
+        { "name": "C. Walk alone" },
+        { "name": "D. Drive car" }
+      ],
+      "correctAnswer": "D",
+      "Transcript": "Every morning, it's just me, my car, and the open road."
+    },
+    {
+      "title": "Question 15.1: Living space is more important than farming space",
+      "answers": [
+        { "name": "A. Woman" },
+        { "name": "B. Man" },
+        { "name": "C. Both" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "Cities are already overcrowded. There isn't enough space for housing, let alone farming."
+    },
+    {
+      "title": "Question 15.2: Farming space is appealing",
+      "answers": [
+        { "name": "A. Woman" },
+        { "name": "B. Man" },
+        { "name": "C. Both" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "Unused spaces that are too small for housing can be converted into farming areas."
+    },
+    {
+      "title": "Question 15.3: Farming space will benefit the urban economy",
+      "answers": [
+        { "name": "A. Woman" },
+        { "name": "B. Man" },
+        { "name": "C. Both" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "Producing vegetables closer to where they're consumed can actually be beneficial."
+    },
+    {
+  "title": "Question 15.4: Farming space is in need of more food",
+  "answers": [
+    { "name": "A. Woman" },
+    { "name": "B. Man" },
+    { "name": "C. Both" }
+  ],
+  "correctAnswer": "A",
+  "Transcript": "More people from rural areas are moving to cities, and food has become a critical issue. It's vital that we adapt over time."
+  },
+  {
+  "title": "Question 16.1: What happened to the TV series?",
+  "answers": [
+    { "name": "A. It didn't receive enough investment at the early stage." },
+    { "name": "B. It was overlooked by critics." },
+    { "name": "C. It caught the audience's attention from the start." }
+  ],
+  "correctAnswer": "C",
+  "Transcript": "A famous TV series called Mystery City was recently broadcasted, and it caught the audience's attention from the start."
+},
+{
+  "title": "Question 16.2: According to the expert, what is the series' potential?",
+  "answers": [
+    { "name": "A. New seasons will be produced due to great demand." },
+    { "name": "B. It inspires young filmmakers to follow a new movie-making style." },
+    { "name": "C. It can help reach new customers." }
+  ],
+  "correctAnswer": "C",
+  "Transcript": "Beyond just entertaining, Mystery City has also helped its network reach new customers."
+},
+{
+  "title": "Question 17.1: What does the expert say about advertising?",
+  "answers": [
+    { "name": "A. It helps to reach new customers." },
+    { "name": "B. Advertisements might sometimes be repetitive which is annoying." },
+    { "name": "C. Advertising costs the same amount of money to produce a movie." }
+  ],
+  "correctAnswer": "A",
+  "Transcript": "Innovative advertising strategies help brands expand their customer base to other countries."
+},
+{
+  "title": "Question 17.2: In what way can advertising affect sports?",
+  "answers": [
+    { "name": "A. They help to attract more fans." },
+    { "name": "B. They can boost ticket sales and sales of sports related items." },
+    { "name": "C. They are not always good for sport fans" }
+  ],
+  "correctAnswer": "C",
+  "Transcript": "While advertisements may boost the game's visibility and attract new audiences, they can sometimes detract from the viewing experience."
+}
+  ]
+},
     // Practice 8
+    {
+  "questions": [
+    {
+      "title": "Question 1: Listen to the announcement. When does the train leave?",
+      "answers": [
+        { "name": "A. At 9:15" },
+        { "name": "B. At 9:30" },
+        { "name": "C. At 9:45" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "The train to London will now leave at 9:15, not 9:30 as planned."
+    },
+    {
+      "title": "Question 2: Listening to a tour guide talking about Rock City. How old is the city?",
+      "answers": [
+        { "name": "A. 2500 years" },
+        { "name": "B. 1500 years" },
+        { "name": "C. 3500 years" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "People first started living here about 1500 years ago."
+    },
+    {
+      "title": "Question 3: Listening to Sarah leaving a message for her friend. When does she want to meet?",
+      "answers": [
+        { "name": "A. Two o'clock" },
+        { "name": "B. Three o'clock" },
+        { "name": "C. One o'clock" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "Can we change the time to three o'clock instead?"
+    },
+    {
+      "title": "Question 4: Listen to a woman talking about what she has just bought. What is the dress she wears like?",
+      "answers": [
+        { "name": "A. black and white" },
+        { "name": "B. long and white" },
+        { "name": "C. long and red" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "It's a beautiful dress. The dress is long and red, just like a sunset!"
+    },
+    {
+      "title": "Question 5: A man is seeking advice on future career. What is he going to do?",
+      "answers": [
+        { "name": "A. To work in business" },
+        { "name": "B. To become a teacher" },
+        { "name": "C. To study at college" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "I guess that would be my choice then. I am not suitable to become a teacher."
+    },
+    {
+      "title": "Question 6: Listen to Anna talk about her old manager, George. What did Anna say about George?",
+      "answers": [
+        { "name": "A. he didn't like her" },
+        { "name": "B. he taught her a lot" },
+        { "name": "C. he was very strict" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "He was a very smart man, and he taught me a lot about work."
+    },
+    {
+      "title": "Question 7: Listen to Sarah talking about her hobby. What does she do in her free time?",
+      "answers": [
+        { "name": "A. Read books and paint" },
+        { "name": "B. Watch movies and go shopping" },
+        { "name": "C. go to the theater and play sports" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "In my free time, I love to go to the theater... I also enjoy playing sports with my friends."
+    },
+    {
+      "title": "Question 8: Linda is talking about what she likes to eat. What does she have for lunch?",
+      "answers": [
+        { "name": "A. Tea" },
+        { "name": "B. Coffee" },
+        { "name": "C. Juice" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "When it comes to lunch, I really enjoy a warm cup of tea."
+    },
+    {
+      "title": "Question 9: A woman is talking about her holiday plan. Where is she going on holidays?",
+      "answers": [
+        { "name": "A. the cave" },
+        { "name": "B. the beach" },
+        { "name": "C. the mountains" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "But I've made up my mind - I'm going to the mountains!"
+    },
+    {
+      "title": "Question 10: A man is talking about the environment of the countryside. What is the main cause of poor air quality?",
+      "answers": [
+        { "name": "A. Smokes from factories" },
+        { "name": "B. Vehicles on the roads" },
+        { "name": "C. Fires in the countryside" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "Farmers often start fires to clean their fields. These fires make a lot of smoke."
+    },
+    {
+      "title": "Question 11: A man is calling his friend to meet for coffee. Where is the coffee shop located?",
+      "answers": [
+        { "name": "A. opposite the gift shop" },
+        { "name": "B. next to the gift shop" },
+        { "name": "C. behind the gift shop" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "The coffee shop is right across from it, opposite the gift shop."
+    },
+    {
+      "title": "Question 12: Two colleagues talk about meeting. When do they want to meet?",
+      "answers": [
+        { "name": "A. On Tuesday" },
+        { "name": "B. On Sunday" },
+        { "name": "C. On Saturday" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "So, I was wondering if we could meet on Tuesday instead."
+    },
+    {
+      "title": "Question 13: A man is calling his teacher to meet for the assignment. When is the meeting?",
+      "answers": [
+        { "name": "A. On Thursday afternoon" },
+        { "name": "B. On Tuesday morning" },
+        { "name": "C. On Thursday morning" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "So, I'm pretty sure we settled on Thursday morning at 10 AM in your office."
+    },
+    {
+      "title": "Question 14.1: Speaker A _____",
+      "answers": [
+        { "name": "A. products are delivered" },
+        { "name": "B. it is cheaper" },
+        { "name": "C. it saves time" },
+        { "name": "D. it has more choices" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "No more carrying heavy bags... The delivery driver brings it right to my doorstep."
+    },
+    {
+      "title": "Question 14.2: Speaker B _____",
+      "answers": [
+        { "name": "A. products are delivered" },
+        { "name": "B. it is cheaper" },
+        { "name": "C. it saves time" },
+        { "name": "D. it has more choices" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "Online stores are practically giving stuff away compared to what you'd pay in-store."
+    },
+    {
+      "title": "Question 14.3: Speaker C _____",
+      "answers": [
+        { "name": "A. products are delivered" },
+        { "name": "B. it is cheaper" },
+        { "name": "C. it saves time" },
+        { "name": "D. it has more choices" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "With online shopping, it's like time stretches out in your favor."
+    },
+    {
+      "title": "Question 14.4: Speaker D _____",
+      "answers": [
+        { "name": "A. products are delivered" },
+        { "name": "B. it is cheaper" },
+        { "name": "C. it saves time" },
+        { "name": "D. it has more choices" }
+      ],
+      "correctAnswer": "D",
+      "Transcript": "The selection online? It's insane! You can find anything—stuff you didn't even know existed."
+    },
+    {
+      "title": "Question 15.1: Auditions are most important for an actor's career.",
+      "answers": [
+        { "name": "A. Woman" },
+        { "name": "B. Man" },
+        { "name": "C. Both" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "I've always believed that auditions are the most important part of an actor's career."
+    },
+    {
+      "title": "Question 15.2: Actors tend to respond best to strong and engaging scripts.",
+      "answers": [
+        { "name": "A. Woman" },
+        { "name": "B. Man" },
+        { "name": "C. Both" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "Strong scripts really bring out the best in them."
+    },
+    {
+  "title": "Question 15.3: Theater acting and screen acting are quite different from each other.",
+  "answers": [
+    { "name": "A. Woman" },
+    { "name": "B. Man" },
+    { "name": "C. Both" }
+  ],
+  "correctAnswer": "C",
+  "Transcript": "I also think there's a huge difference between theater acting and screen acting. The two require completely different skill sets."
+},
+{
+  "title": "Question 15.4: Actors should be praised and recognized as much as possible.",
+  "answers": [
+    { "name": "A. Woman" },
+    { "name": "B. Man" },
+    { "name": "C. Both" }
+  ],
+  "correctAnswer": "C",
+  "Transcript": "Actors deserve as much praise as possible... Encouragement and praise go a long way."
+},
+{
+  "title": "Question 16.1: What is one of the main criticisms of the Regional Development Plan?",
+  "answers": [
+    { "name": "A. It doesn't provide enough alternatives to driving." },
+    { "name": "B. It places too much emphasis on public transportation." },
+    { "name": "C. It is too expensive to implement the plan." }
+  ],
+  "correctAnswer": "A",
+  "Transcript": "One of the main criticisms we've received is that our plan doesn't provide enough alternatives to driving."
+},
+{
+  "title": "Question 16.2: What challenge is the Regional Development Plan likely to face?",
+  "answers": [
+    { "name": "A. It may be delayed due to funding issues." },
+    { "name": "B. It could face difficulties in gaining government approval." },
+    { "name": "C. It is likely to meet resistance from local communities." }
+  ],
+  "correctAnswer": "C",
+  "Transcript": "The real challenge we're anticipating is the likelihood of resistance from local communities."
+},
+{
+  "title": "Question 17.1: What does the producer think about the dialogues in the new show?",
+  "answers": [
+    { "name": "A. The characters' backgrounds are not adequately explored" },
+    { "name": "B. They seem unrealistic." },
+    { "name": "C. They reflect real-life conversations well." }
+  ],
+  "correctAnswer": "A",
+  "Transcript": "The biggest gap right now is that we haven't adequately explored the characters’ backstories through their dialogue."
+},
+{
+  "title": "Question 17.2: How is the current industry demand affecting the quality of script production?",
+  "answers": [
+    { "name": "A. It is allowing for more thorough script development." },
+    { "name": "B. It is leading to more innovative ideas." },
+    { "name": "C. It is negatively influencing script production." }
+  ],
+  "correctAnswer": "C",
+  "Transcript": "Market demand and tight broadcast deadlines are pushing us to rush through the script development cycle... the final quality of the project takes a hit."
+}
+]},
     // Practice 9
+    {
+  "questions": [
+    {
+      "title": "Question 1: The woman is walking into a local store. How much are the cleaning products?",
+      "answers": [
+        { "name": "A. One pound fifty" },
+        { "name": "B. Two pounds fifty" },
+        { "name": "C. Three pounds fifty" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "Today they're only one pound fifty."
+    },
+    {
+      "title": "Question 2: Listen to the chief announce to students. When is lunch ready?",
+      "answers": [
+        { "name": "A. 12:30 p.m" },
+        { "name": "B. 2:00 p.m" },
+        { "name": "C. 1:15 p.m" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "Lunch will be ready at 2:00 p.m."
+    },
+    {
+      "title": "Question 3: Listen to David talking about the conference. How long did he talk in the speech?",
+      "answers": [
+        { "name": "A. 30 minutes" },
+        { "name": "B. 45 minutes" },
+        { "name": "C. 15 minutes" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "My speech lasted about 15 minutes."
+    },
+    {
+      "title": "Question 4: Listen to the director talking about sales of his company. How many copies of Freeze Frame magazine were sold?",
+      "answers": [
+        { "name": "A. Over 300,000 copies" },
+        { "name": "B. Over 3,000 copies" },
+        { "name": "C. Over 30,000 copies" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "We sold over 300,000 copies!"
+    },
+    {
+      "title": "Question 5: Listen to the conversation between Douglas and Kay. Why does Douglas call Kay?",
+      "answers": [
+        { "name": "A. ask for a favor" },
+        { "name": "B. suggest a meeting" },
+        { "name": "C. say thank you" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "I wanted to call you today to say thank you for all your help with the project."
+    },
+    {
+      "title": "Question 6: A man and woman are discussing their plans for the evening. What do they decide to do?",
+      "answers": [
+        { "name": "A. Make plans later" },
+        { "name": "B. Go to the movie" },
+        { "name": "C. Stay at home" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "It might be better to plan when we can decide together."
+    },
+    {
+      "title": "Question 7: Listen to Marry talking to Jane while waiting for James. What did they decide to do?",
+      "answers": [
+        { "name": "A. Have meeting without him" },
+        { "name": "B. Continue waiting for him" },
+        { "name": "C. Cancel the meeting" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "I feel like we could have the meeting without him."
+    },
+    {
+      "title": "Question 8: A woman shares her job with her friend. Why does she want to become a writer?",
+      "answers": [
+        { "name": "A. to earn much money" },
+        { "name": "B. to help people" },
+        { "name": "C. to become famous" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "My main reason is to help people improve themselves."
+    },
+    {
+      "title": "Question 9: A woman tells her friend about her plans for the day. What is she going to do?",
+      "answers": [
+        { "name": "A. Have coffee" },
+        { "name": "B. Have lunch" },
+        { "name": "C. Drink tea" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "I'm going to meet a friend at a cozy café... coffee is definitely on my mind!"
+    },
+    {
+      "title": "Question 10: Listen to a woman explaining her morning routine. Why does she get up early?",
+      "answers": [
+        { "name": "A. have some quiet time" },
+        { "name": "B. to go to work early" },
+        { "name": "C. to take care of children" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "I usually wake up early to enjoy some quiet time."
+    },
+    {
+      "title": "Question 11: A man is talking about his routine after work. What is he going to do?",
+      "answers": [
+        { "name": "A. Goes running" },
+        { "name": "B. Cycles home" },
+        { "name": "C. Meets his client" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "I like to go for a run after work to clear my mind."
+    },
+    {
+      "title": "Question 12: Linda is talking about her mother. What do mother and daughter have in common?",
+      "answers": [
+        { "name": "A. Similar appearance" },
+        { "name": "B. Similar interests" },
+        { "name": "C. Similar personalities" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "We both enjoy many of the same activities, like reading and gardening."
+    },
+    {
+      "title": "Question 13: Listen to a tour guide introducing the tour. Where will tea be served?",
+      "answers": [
+        { "name": "A. On the Mountain Boat" },
+        { "name": "B. On the River Boat" },
+        { "name": "C. On the Beach Boat" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "While on the river boat, you can enjoy afternoon tea."
+    },
+    {
+      "title": "Question 14.1: Speaker A _____",
+      "answers": [
+        { "name": "A. give away used items" },
+        { "name": "B. buy environmentally friendly products" },
+        { "name": "C. reuse containers for storing food" },
+        { "name": "D. not buy commercial cleaning products" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "I've started giving away my old clothes and furniture instead of dumping them."
+    },
+    {
+      "title": "Question 14.2: Speaker B _____",
+      "answers": [
+        { "name": "A. give away used items" },
+        { "name": "B. buy environmentally friendly products" },
+        { "name": "C. reuse containers for storing food" },
+        { "name": "D. not buy commercial cleaning products" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "I only purchase products that are sustainably sourced or made from recycled materials."
+    },
+    {
+      "title": "Question 14.3: Speaker C _____",
+      "answers": [
+        { "name": "A. give away used items" },
+        { "name": "B. buy environmentally friendly products" },
+        { "name": "C. reuse containers for storing food" },
+        { "name": "D. not buy commercial cleaning products" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "I've started reusing containers for storing food... I use glass jars and old containers."
+    },
+    {
+      "title": "Question 14.4: Speaker D _____",
+      "answers": [
+        { "name": "A. give away used items" },
+        { "name": "B. buy environmentally friendly products" },
+        { "name": "C. reuse containers for storing food" },
+        { "name": "D. not buy commercial cleaning products" }
+      ],
+      "correctAnswer": "D",
+      "Transcript": "I stopped buying commercial cleaning products altogether. Now, I make my own cleaning solutions."
+    },
+    {
+      "title": "Question 15.1: Community design can influence people's behavior.",
+      "answers": [
+        { "name": "A. Woman" },
+        { "name": "B. Man" },
+        { "name": "C. Both" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "It's fascinating how the way a space is designed can actually change how people relate to each other."
+    },
+    {
+      "title": "Question 15.2: Creating community can take time.",
+      "answers": [
+        { "name": "A. Woman" },
+        { "name": "B. Man" },
+        { "name": "C. Both" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "When you move to a new town or start over in a completely different setting, it takes a while before you really feel integrated."
+    },
+    {
+  "title": "Question 15.3: Work communities and social communities are the same.",
+  "answers": [
+    { "name": "A. Woman" },
+    { "name": "B. Man" },
+    { "name": "C. Both" }
+  ],
+  "correctAnswer": "A",
+  "Transcript": "Whether it's colleagues at work or friends outside, the essence is the same—feeling seen, supported, and involved."
+},
+{
+  "title": "Question 15.4: Technology has changed how community forms.",
+  "answers": [
+    { "name": "A. Woman" },
+    { "name": "B. Man" },
+    { "name": "C. Both" }
+  ],
+  "correctAnswer": "C",
+  "Transcript": "Online platforms are redefining what community means... Technology really has changed the game."
+},
+{
+  "title": "Question 16.1: How does life change for graduates after university?",
+  "answers": [
+    { "name": "A. They feel more stressed about job seeking" },
+    { "name": "B. They are likely to stick to their academic routines" },
+    { "name": "C. They are likely to be more flexible and open-minded" }
+  ],
+  "correctAnswer": "C",
+  "Transcript": "Unlike during my university days, I don't have a fixed schedule anymore. This has made me more adaptable and open-minded."
+},
+{
+  "title": "Question 16.2: What is a common characteristic of the job market after university?",
+  "answers": [
+    { "name": "A. More opportunities for networking" },
+    { "name": "B. More competitive" },
+    { "name": "C. Many jobs offer great benefits" }
+  ],
+  "correctAnswer": "B",
+  "Transcript": "The job market was quite an eye-opener... I didn't realize just how fierce the competition would be."
+},
+{
+  "title": "Question 17.1: What is the main issue with the product's promotion campaign?",
+  "answers": [
+    { "name": "A. It is using outdated advertising methods" },
+    { "name": "B. They use exaggerated claims" },
+    { "name": "C. It is not targeting the correct market" }
+  ],
+  "correctAnswer": "B",
+  "Transcript": "One major issue is that the advertisements make exaggerated claims."
+},
+{
+  "title": "Question 17.2: Why is the product struggling to stand out in the market?",
+  "answers": [
+    { "name": "A. It is priced too high compared to its competitors" },
+    { "name": "B. It is too similar to many existing products" },
+    { "name": "C. It is not available in enough stores" }
+  ],
+  "correctAnswer": "B",
+  "Transcript": "The real issue is that PowerBoost is too similar to many existing products."
+}
+]},
     // Practice 10
+{
+  "questions": [
+    {
+      "title": "Question 1: Listen to the speaker talking on the radio. What is she talking about?",
+      "answers": [
+        { "name": "A. Her favorite hobby" },
+        { "name": "B. Her journey to work" },
+        { "name": "C. Her weekend plans" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "Every morning, I take the same route to work."
+    },
+    {
+      "title": "Question 2: Listen to the conversation about the directions. Where is the library located?",
+      "answers": [
+        { "name": "A. On the left of the square" },
+        { "name": "B. In front of the square" },
+        { "name": "C. Behind the square" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "You'll see it on the left side, just past the bakery."
+    },
+    {
+      "title": "Question 3: Listen to the woman talking about her holiday plans. Where is she going next?",
+      "answers": [
+        { "name": "A. The east" },
+        { "name": "B. The north" },
+        { "name": "C. The south" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "This time, I'm heading to the south, where the mountains are."
+    },
+    {
+      "title": "Question 4: Listen to a writer talking about her job. What was her first job?",
+      "answers": [
+        { "name": "A. Teacher" },
+        { "name": "B. Doctor" },
+        { "name": "C. Engineer" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "My first job was actually as a teacher."
+    },
+    {
+      "title": "Question 5: Listen to the conversation. Who is she taking a photo of?",
+      "answers": [
+        { "name": "A. The boys' and the girls' team" },
+        { "name": "B. The girls' team" },
+        { "name": "C. Sue and Lily" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "I'm just about to take a photo of the girls' team now."
+    },
+    {
+      "title": "Question 6: Listen to the speaker talking about their weekly schedule. When is the meeting scheduled?",
+      "answers": [
+        { "name": "A. Monday morning" },
+        { "name": "B. Friday evening" },
+        { "name": "C. Wednesday afternoon" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "The most important thing is the meeting on Wednesday afternoon."
+    },
+    {
+      "title": "Question 7: Listening to a man talking about his business trip. What does he like in Dubai?",
+      "answers": [
+        { "name": "A. He enjoys the food there" },
+        { "name": "B. He enjoys his job there" },
+        { "name": "C. He enjoys the people there" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "I really enjoy my work here. It's challenging, but that's what makes it exciting."
+    },
+    {
+      "title": "Question 8: Listening to a woman's announcement. Where will they wait for the bus?",
+      "answers": [
+        { "name": "A. Behind the hotel's main entrance" },
+        { "name": "B. By the hotel's main entrance" },
+        { "name": "C. By the hotel's side entrance" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "We'll wait for the bus by the hotel's main entrance."
+    },
+    {
+      "title": "Question 9: Stephanie is looking for a job taking care of children. How old is she?",
+      "answers": [
+        { "name": "A. 21" },
+        { "name": "B. 20" },
+        { "name": "C. 22" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "This year, I am 21 years old."
+    },
+    {
+      "title": "Question 10: Listen to a woman giving advice on saving money. What advice does she give?",
+      "answers": [
+        { "name": "A. Buy in bulk" },
+        { "name": "B. Use the public transport" },
+        { "name": "C. Put money into the bank" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "The best tip I have is to use public transport instead of driving."
+    },
+    {
+      "title": "Question 11: Listen to a teacher talking about meeting preparations. What is the teacher preparing now?",
+      "answers": [
+        { "name": "A. Set up the chairs" },
+        { "name": "B. Organize the documents" },
+        { "name": "C. Order the food" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "Then, of course, I have to order the food so we can eat during the break."
+    },
+    {
+      "title": "Question 12: Listen to an actor discussing his hobbies. What does the actor like to do?",
+      "answers": [
+        { "name": "A. Drawing" },
+        { "name": "B. Watching movies" },
+        { "name": "C. Playing sports" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "Actually, I love drawing. It helps me clear my mind and get creative."
+    },
+    {
+      "title": "Question 13: Listen to a principal talking about new school facilities. What new facility will the school have?",
+      "answers": [
+        { "name": "A. a new library" },
+        { "name": "B. a sports field" },
+        { "name": "C. the performance space" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "The school will have a new performance space for plays, concerts, and other events."
+    },
+    {
+      "title": "Question 14.1: Speaker A _____",
+      "answers": [
+        { "name": "A. prefer running in the street" },
+        { "name": "B. at the seaside" },
+        { "name": "C. on the running track" },
+        { "name": "D. in the fitness center" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "Running in the street is what I love most."
+    },
+    {
+      "title": "Question 14.2: Speaker B _____",
+      "answers": [
+        { "name": "A. prefer running in the street" },
+        { "name": "B. at the seaside" },
+        { "name": "C. on the running track" },
+        { "name": "D. in the fitness center" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "There's nothing better than running by the seaside."
+    },
+    {
+      "title": "Question 14.3: Speaker C _____",
+      "answers": [
+        { "name": "A. prefer running in the street" },
+        { "name": "B. at the seaside" },
+        { "name": "C. on the running track" },
+        { "name": "D. in the fitness center" }
+      ],
+      "correctAnswer": "C",
+      "Transcript": "For me, the running track is the best place to run."
+    },
+    {
+      "title": "Question 14.4: Speaker D _____",
+      "answers": [
+        { "name": "A. prefer running in the street" },
+        { "name": "B. at the seaside" },
+        { "name": "C. on the running track" },
+        { "name": "D. in the fitness center" }
+      ],
+      "correctAnswer": "D",
+      "Transcript": "Inside, I don't have to worry about it being too hot, cold, or rainy."
+    },
+    {
+      "title": "Question 15.1: Continuity is very important in the workplace.",
+      "answers": [
+        { "name": "A. Woman" },
+        { "name": "B. Man" },
+        { "name": "C. Both" }
+      ],
+      "correctAnswer": "B",
+      "Transcript": "Continuity is important in keeping everyone focused."
+    },
+    {
+      "title": "Question 15.2: Job security cannot always be guaranteed.",
+      "answers": [
+        { "name": "A. Woman" },
+        { "name": "B. Man" },
+        { "name": "C. Both" }
+      ],
+      "correctAnswer": "A",
+      "Transcript": "Job security isn't something we can rely on anymore."
+    },
+   {
+  "title": "Question 15.3: Job satisfaction is an important motivator.",
+  "answers": [
+    { "name": "A. Woman" },
+    { "name": "B. Man" },
+    { "name": "C. Both" }
+  ],
+  "correctAnswer": "C",
+  "Transcript": "One thing we both can agree on is that job satisfaction is a huge motivator."
+},
+{
+  "title": "Question 15.4: Technology is good for the entire economy.",
+  "answers": [
+    { "name": "A. Woman" },
+    { "name": "B. Man" },
+    { "name": "C. Both" }
+  ],
+  "correctAnswer": "B",
+  "Transcript": "Technology has been a game-changer for the economy, making things more efficient."
+},
+{
+  "title": "Question 16.1: How does the speaker recommend saving money effectively?",
+  "answers": [
+    { "name": "A. Saving a large amount only on a daily basis." },
+    { "name": "B. Organizing their resources more effectively" },
+    { "name": "C. Use credit cards to manage expenses" }
+  ],
+  "correctAnswer": "B",
+  "Transcript": "One of the best ways to save effectively is to set aside a fixed amount every month."
+},
+{
+  "title": "Question 16.2: Who does the speaker believe can save money most successfully?",
+  "answers": [
+    { "name": "A. Get advice from people that have experience" },
+    { "name": "B. Keep all your savings in a single account" },
+    { "name": "C. Avoid making any long-term financial plans" }
+  ],
+  "correctAnswer": "A",
+  "Transcript": "One key piece of advice is to get help from people who know more than you."
+},
+{
+  "title": "Question 17.1: What is the speaker's opinion about security cameras at work?",
+  "answers": [
+    { "name": "A. People are unnecessarily worried about them" },
+    { "name": "B. Most people don't even realize cameras are present." },
+    { "name": "C. Cameras should be placed to ensure complete coverage." }
+  ],
+  "correctAnswer": "A",
+  "Transcript": "Honestly, I think people worry too much about it. These cameras aren't there to spy on us."
+},
+{
+  "title": "Question 17.2: How does the speaker suggest people should feel about security cameras at work?",
+  "answers": [
+    { "name": "A. People often find them intimidating and invasive." },
+    { "name": "B. Many believe they are only useful after incidents have occurred." },
+    { "name": "C. People should feel reassured about their presence" }
+  ],
+  "correctAnswer": "C",
+  "Transcript": "Instead of feeling worried, we should feel glad that our company cares about our safety."
+}
+]}
+
 
   ]
 
