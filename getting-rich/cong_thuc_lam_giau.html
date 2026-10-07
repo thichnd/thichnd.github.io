@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công Thức Làm Giàu Của Người Giàu</title>
+    <style>
+        :root { --bg: #0f172a; --card: #1e293b; --text: #f8fafc; --muted: #94a3b8; --gold: #d4af37; --strong: #d4af37}
+        [data-theme="light"] { --bg: #f1f5f9; --card: #ffffff; --text: #1e293b; --muted: #64748b; --gold: #b45309;  --strong: #e74c3c}
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; transition: 0.3s; }
+        body { background: var(--bg); color: var(--text); padding-top: 70px; }
+        .navbar { background: #1e293b; position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 15px 20px; }
+        .nav-brand { color: #d4af37; font-weight: bold; font-size: 1.4rem; text-decoration: none; }
+        .nav-right { display: flex; align-items: center; gap: 20px; }
+        .nav-menu { display: flex; list-style: none; gap: 20px; }
+        .nav-link { color: #fff; text-decoration: none; font-size: 0.95rem; }
+        .nav-link.active { color: #d4af37; font-weight: bold; border-bottom: 2px solid #d4af37; }
+        .theme-toggle { background: none; border: 1px solid #d4af37; color: #fff; padding: 5px 12px; border-radius: 20px; cursor: pointer; }
+        .container { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        h1 { color: var(--gold); margin-bottom: 20px; text-align: center; }
+        .card { background: var(--card); padding: 25px; border-radius: 8px; margin-bottom: 20px; border: 1px solid var(--muted); }
+        h2 { color: var(--gold); margin-bottom: 10px; font-size: 1.3rem; }
+        ul, ol { margin-left: 20px; margin-top: 10px; }
+        li { margin-bottom: 8px; }
+		
+		h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        h3 {
+            color: #2980b9;
+            margin-top: 25px;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        strong {
+            color: var(--strong);
+        }
+        .highlight {
+            background-color: #f1c40f;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+		
+        footer { text-align: center; color: var(--muted); padding: 30px; border-top: 1px solid var(--muted); margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+    <!-- ĐOẠN MÃ NHÚNG MENU BẰNG JS -->
+	 <thanh-menu></thanh-menu>
+
+    <div class="container">
+        <h1>CÔNG THỨC LÀM GIÀU CỦA NGƯỜI GIÀU</h1>
+    
+    <p><strong>Công thức làm giàu của người giàu không đến từ một vận may bất ngờ, mà là sự kết hợp nhất quán giữa tư duy khác biệt, kiểm soát tài chính nghiêm ngặt và khai thác tối đa các đòn bẩy.</strong> Những người giàu nhất thế giới, từ các triệu phú tự thân đến các tỷ phú hàng đầu, đều vận hành khối tài sản của họ dựa trên một bộ nguyên lý cốt lõi.</p>
+
+    <h3>1. Tư duy tài chính: Tập trung vào "Tài sản", né tránh "Tiêu sản"</h3>
+    <p>Sự khác biệt lớn nhất giữa người giàu và người nghèo nằm ở cách họ định nghĩa và sử dụng tiền bạc.</p>
+    <ul>
+        <li><strong>Mua tài sản trước, tiêu sản sau:</strong> Người giàu tập trung toàn bộ nguồn lực vào cột tài sản (những thứ dòng tiền chạy vào túi như cổ phiếu, bất động sản cho thuê, doanh nghiệp). Họ chỉ mua tiêu sản (xe sang, đồ hiệu) khi nguồn thu nhập thụ động từ tài sản đã thừa sức chi trả.</li>
+        <li><strong>Không cần gây ấn tượng:</strong> Giới siêu giàu không tốn tiền để "trông có vẻ giàu". Thay vì mua một chiếc xe xa xỉ mất giá ngay khi lăn bánh, họ dùng số tiền đó sở hữu bất động sản tạo dòng tiền.</li>
+    </ul>
+
+    <h3>2. Công thức phân bổ vốn và Tiết kiệm để đầu tư</h3>
+    <p>Người giàu không tiết kiệm tiền để gửi ngân hàng hưởng lãi suất thấp; họ <span class="highlight">tiết kiệm để đầu tư</span>.</p>
+    <ul>
+        <li><strong>Tỷ lệ tiết kiệm cực cao:</strong> Các triệu phú tự thân thường tiết kiệm và tái đầu tư lên tới <strong>64% tổng thu nhập</strong> của mình, đồng thời kiểm soát chặt chẽ việc lạm phát lối sống.</li>
+        <li><strong>Quy tắc phân bổ 30 - 40 - 30:</strong> Chia nhỏ số tiền nhàn rỗi theo các mục tiêu rõ ràng: 30% phòng thủ (quỹ khẩn cấp, bảo hiểm), 40% đầu tư an toàn/tăng trưởng dài hạn và 30% cho các cơ hội rủi ro cao nhưng lợi nhuận đột biến.</li>
+    </ul>
+
+    <h3>3. Đa dạng hóa nguồn thu nhập</h3>
+    <p>Người giàu không bao giờ phụ thuộc vào một nguồn thu nhập duy nhất, đặc biệt là tiền lương cố định.</p>
+    <ul>
+        <li>Thống kê cho thấy <strong>65% triệu phú tự thân có ít nhất 3 nguồn thu nhập</strong>, 45% có 4 nguồn và 29% có từ 5 nguồn trở lên.</li>
+        <li>Các nguồn thu này thường bao gồm: Lương/thu nhập từ công việc chính, lợi nhuận kinh doanh, cổ tức từ chứng khoán, tiền cho thuê bất động sản và doanh thu từ bản quyền/chất xám.</li>
+    </ul>
+
+    <h3>4. Sử dụng "4 đòn bẩy" để tối ưu hóa quy mô</h3>
+    <p>Một cá nhân chỉ có 24 giờ một ngày, do đó người giàu áp dụng công thức sử dụng đòn bẩy để nhân bản sức lao động:</p>
+    <ol>
+        <li><strong>Đòn bẩy Tiền bạc (Other People's Money - OPM):</strong> Dùng vốn gọi từ nhà đầu tư hoặc nợ vay thông minh để làm đòn bẩy kinh doanh, sinh lời cao hơn chi phí vốn.</li>
+        <li><strong>Đòn bẩy Thời gian (Other People's Time - OPT):</strong> Thuê và ủy quyền cho những người giỏi hơn mình vận hành hệ thống nhằm giải phóng thời gian cho bản thân.</li>
+        <li><strong>Đòn bẩy Con người:</strong> Xây dựng mạng lưới mối quan hệ chất lượng cao và đội ngũ nhân sự tinh anh.</li>
+        <li><strong>Đòn bẩy Công nghệ:</strong> Ứng dụng Internet, tự động hóa và AI để sản phẩm/dịch vụ có thể tiếp cận hàng triệu khách hàng mà không tốn thêm nhiều chi phí vận hành.</li>
+    </ol>
+
+    <h3>5. Đầu tư vào bản thân và giải quyết vấn đề xã hội</h3>
+    <ul>
+        <li><strong>Đầu tư vào tri thức:</strong> 85% người giàu đọc sách phát triển bản thân trên 30 phút mỗi ngày. Họ nâng cấp năng lực cốt lõi (Bán hàng, Lãnh đạo, Tài chính) trước khi trực tiếp làm chủ.</li>
+        <li><strong>Kinh doanh là giải quyết vấn đề:</strong> Tiền bạc chỉ là thước đo giá trị bạn mang lại cho thị trường. Người giàu tập trung tìm kiếm các "nỗi đau" của xã hội, tạo ra giải pháp xử lý nó hiệu quả và quy mô hóa giải pháp đó thông qua mô hình kinh doanh bền vững.</li>
+    </ul>
+
+        <footer>
+            © Cẩm nang Quản lý Tài chính cá nhân & Làm giàu bền vững
+        </footer>
+    </div>
+
+    <script src="js\menu.js" defer></script>
+</body>
+</html>

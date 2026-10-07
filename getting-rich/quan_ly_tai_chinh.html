@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công Thức Làm Giàu</title>
+    <style>
+        :root { --bg: #0f172a; --card: #1e293b; --text: #f8fafc; --muted: #94a3b8; --gold: #d4af37; }
+        [data-theme="light"] { --bg: #f1f5f9; --card: #ffffff; --text: #1e293b; --muted: #64748b; --gold: #b45309; }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; transition: 0.3s; }
+        body { background: var(--bg); color: var(--text); padding-top: 70px; }
+        .navbar { background: #1e293b; position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 15px 20px; }
+        .nav-brand { color: #d4af37; font-weight: bold; font-size: 1.4rem; text-decoration: none; }
+        .nav-right { display: flex; align-items: center; gap: 20px; }
+        .nav-menu { display: flex; list-style: none; gap: 20px; }
+        .nav-link { color: #fff; text-decoration: none; font-size: 0.95rem; }
+        .nav-link.active { color: #d4af37; font-weight: bold; border-bottom: 2px solid #d4af37; }
+        .theme-toggle { background: none; border: 1px solid #d4af37; color: #fff; padding: 5px 12px; border-radius: 20px; cursor: pointer; }
+        .container { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        h1 { color: var(--gold); margin-bottom: 20px; text-align: center; }
+        .card { background: var(--card); padding: 25px; border-radius: 8px; margin-bottom: 20px; border: 1px solid var(--muted); }
+        h2 { color: var(--gold); margin-bottom: 10px; font-size: 1.3rem; }
+        ul, ol { margin-left: 20px; margin-top: 10px; }
+        li { margin-bottom: 8px; }
+        footer { text-align: center; color: var(--muted); padding: 30px; border-top: 1px solid var(--muted); margin-top: 50px; }
+    </style>
+</head>
+<body>
+    <!-- ĐOẠN MÃ NHÚNG MENU BẰNG JS -->
+	 <thanh-menu></thanh-menu>
+
+   <div class="container">
+    <h1>Hệ Thống Quản Lý Tài Chính</h1>
+    <p class="subtitle">Bí quyết kiểm soát dòng tiền tối ưu thông qua quy tắc 6 chiếc lọ</p>
+    
+    <div class="summary-box">
+        <strong>Nguyên lý cốt lõi:</strong> Quản lý tài chính không phải là thắt lưng buộc bụng, mà là phân bổ dòng tiền một cách thông minh để đảm bảo cả cuộc sống hiện tại lẫn sự tự do trong tương lai.
+    </div>
+
+    <h2>Quy tắc 6 chiếc lọ tài chính (JARS SYSTEM)</h2>
+    <p>Hãy chia nhỏ thu nhập hàng tháng của bạn vào 6 quỹ riêng biệt ngay khi nhận được tiền:</p>
+    
+    <div class="grid">
+        <div class="card" style="border-top: 4px solid #3b82f6;">
+            <h3>1. Nhu cầu thiết yếu (55%)</h3>
+            <p>Chi trả cho ăn uống, tiền nhà, hóa đơn, đi lại và các chi phí sinh hoạt bắt buộc hàng ngày.</p>
+        </div>
+        <div class="card" style="border-top: 4px solid #10b981;">
+            <h3>2. Tự do tài chính (10%)</h3>
+            <p>Quỹ dùng ĐỂ ĐẦU TƯ tạo thu nhập thụ động. Tuyệt đối không được tiêu số tiền này vào mục đích khác.</p>
+        </div>
+        <div class="card" style="border-top: 4px solid #f59e0b;">
+            <h3>3. Tiết kiệm dài hạn (10%)</h3>
+            <p>Dành cho các mục tiêu lớn trong tương lai như mua xe, mua nhà, sinh con hoặc phòng ngừa rủi ro lớn.</p>
+        </div>
+        <div class="card" style="border-top: 4px solid #8b5cf6;">
+            <h3>4. Giáo dục & Tri thức (10%)</h3>
+            <p>Đầu tư vào bản thân: Mua sách, tham gia khóa học, hội thảo nâng cao năng lực kiếm tiền.</p>
+        </div>
+        <div class="card" style="border-top: 4px solid #ec4899;">
+            <h3>5. Hưởng thụ - Play (10%)</h3>
+            <p>Thưởng cho bản thân: Ăn nhà hàng sang trọng, mua sắm món đồ yêu thích hoặc đi du lịch giải tỏa áp lực.</p>
+        </div>
+        <div class="card" style="border-top: 4px solid #6b7280;">
+            <h3>6. Quỹ cho đi (5%)</h3>
+            <p>Dùng để làm từ thiện, giúp đỡ người thân bè bạn hoặc đóng góp cho các giá trị cộng đồng.</p>
+        </div>
+    </div>
+
+    <h2>Chiến lược tối ưu hóa dòng tiền</h2>
+    <ul>
+        <li><strong>Nguyên tắc "Trả cho mình trước":</strong> Luôn trích ngay 10% vào quỹ Tự do tài chính và 10% quỹ Tiết kiệm trước khi chi tiêu bất kỳ khoản nào khác.</li>
+        <li><strong>Linh hoạt dịch chuyển tỷ lệ:</strong> Khi tổng thu nhập tăng lên, hãy cố gắng giữ nguyên mức chi tuyệt đối cho "Nhu cầu thiết yếu" và nâng tỷ lệ của quỹ "Tự do tài chính" lên 20% - 30% để về đích tự do tài chính nhanh hơn.</li>
+    </ul>
+
+        <footer>
+            © Cẩm nang Quản lý Tài chính cá nhân & Làm giàu bền vững
+        </footer>
+    </div>
+
+    <script src="js\menu.js" defer></script>
+</body>
+</html>
